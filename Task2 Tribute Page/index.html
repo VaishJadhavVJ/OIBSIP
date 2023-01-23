@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Radwimps Tribute Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header" class="fixed-top">
+      <nav id="navbar" class="navbar container navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link regular" href="#home">Home</a>
+              <a class="nav-link regular" href="#biography">Biography</a>
+              <a class="nav-link regular" href="#musicvideo">Music Video</a>
+              <a class="nav-link ragular" href="#songs">Songs</a>
+              <a class="nav-link regular" href="#awards">Awards</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article id="home" style="background-image: url('radwimps\ bg.jpg');">
+        <div class="home-content container">
+          <div class="home-title">
+            <h1 class="bold">RAMDWIMPS</h1>
+            <h3 class="regular"><-Tribute Page-></h3>
+          </div>
+        </div>
+      </article>
+      <article id="biography">
+        <div class="bio-content container d-flex justify-content-between align-items-center">
+            <div class="bio-text d-flex flex-column">
+                <h2 class="semibold">Biography</h2>
+                <p class="regular">Radwimps (ラッドウインプス, Raddo'uinpusu, stylized as RADWIMPS) is a Japanese rock band 
+                  who debuted independently in 2003 and signed with Toshiba EMI in 2005. 
+                  The band's name, Radwimps, was formed from two English slang terms, "rad" and "wimp". 
+                  According to the band, the coined word had several meanings, including "excellent weakling" and "superlative coward".</p>
+            </div>
+            <div class="bio-img">
+                <img src="radwimpsprofile.webp" alt="aimer photo">
+            </div>
+        </div>
+      </article>
+      <article id="musicvideo">
+        <div class="mv-content container">
+          <div class="mv-text d-flex justify-content-center">
+            <h2 class="semibold">Music Video</h2>
+          </div>
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <div class="mv-item d-block ratio ratio-16x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/a2GujJZfXpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="mv-item d-block ratio ratio-16x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Xs0Lxif1u9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="mv-item d-block ratio ratio-16x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EQ94zflNqn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article id="songs">
+        <div class="songs-content container ">
+          <div class="mv-text d-flex justify-content-center">
+            <h2 class="semibold">Songs</h2>
+          </div>
+          <div class="songs-item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1EowJ1WwkMzkCkRomFhui7?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> 
+          </div>
+        </div>
+      </article>
+      <article id="awards">
+        <div class="bio-content container d-flex justify-content-between align-items-center">
+            <div class="bio-text d-flex flex-column">
+                <h2 class="semibold"><u><b>Awards Received</b></u></h2>
+                <p class="regular">
+                  <ul>
+                    <li>2017	Winner
+                      NETPAC Award Best Original Score
+                      Kimi no Na wa. (2016) </li>
+                    <li>2020	Winner
+                    Award of the Japanese Academy	Best Music Score
+                    Tenki no ko (2019)</li>
+                  <li>2017	Winner
+                    Award of the Japanese Academy	Best Music Score
+                    Kimi no Na wa. (2016)</li>
+                  </ul>
+                </p>
+            </div>
+    </main>
+
+    <footer>
+        <p class="regular">&#169 Vaishnavi Jadhav</p>
+      </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
